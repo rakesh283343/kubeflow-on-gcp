@@ -42,6 +42,6 @@ PATH=${PATH}:$(pwd)
 ```
 ### Setup Deployment
 #### Step 1: Get Client ID and Client Secret from Google Cloud 
-
+![Screenshot](api_service_credentials.png)
 
 
