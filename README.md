@@ -33,5 +33,15 @@ export KFCTL_FILE="kfctl.tar.gz"
 # Download kfctl
 wget $KFCTL_FILE_PATH -O $KFCTL_FILE
 
+# Extract the content while downlad finished
+tar -xvf ${KFCTL_FILE}
 ```
+#### Step 2: Add KFCTL to env PATH
+```bash
+PATH=${PATH}:$(pwd)
+```
+### Setup Deployment
+#### Step 1: Get Client ID and Client Secret from Google Cloud 
+
+
 
