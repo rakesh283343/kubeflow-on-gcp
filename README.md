@@ -44,4 +44,13 @@ PATH=${PATH}:$(pwd)
 #### Step 1: Get Client ID and Client Secret from Google Cloud 
 ![Screenshot](api_service_credentials.png)
 
+- Create an <h4> Create OAuth client ID </h4>
+- Choose Application type as <h4> Web Application </h4>
+- Rename an application name wathever you want
+- Add URI by following the pattern: <h4> https://iap.googleapis.com/v1/oauth/clientIds/<CLIENT_ID>:handleRedirect </h4>
+  
+  RQ: To get CLIENT_ID first create the OAuth Client without URI and then edit it to add URI
+ 
+
+
 
