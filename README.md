@@ -98,8 +98,9 @@ Inside your ```$KF_DIR``` navigate to the ```gcp_config``` folder and then edit 
       max-cpu: 6
       max-memory: 30
 ```
-- Change the  ```cpu-pul-machine-type``` to ``` n1-standard-2 ```
-You can choose an type of machine but it have to be under you quotas limit
+- Change the  ```cpu-pul-machine-type``` to ``` n1-standard-2 ```.
+
+You can choose any type of machine but it have to be under you quotas limit.
 ```
 cpu-pool-enable-autoscaling: true
 cpu-pool-initialNodeCount: 2
