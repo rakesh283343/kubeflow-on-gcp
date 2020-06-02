@@ -123,4 +123,4 @@ export CONFIG_FILE=${KF_DIR}/kfctl_gcp_iap_v1.x.x.yaml
 # apply change and deploy 
 kfctl apply -V --file=${CONFIG_FILE}
 ```
-### Enjoy yuur kubeflow exploration !!
+### Enjoy kubeflow!!
